@@ -1,0 +1,16 @@
+pwd
+mkdir
+touch filename
+cd file/foldername
+echo
+cat
+grep 
+rm
+less
+find
+less
+man
+rmdir
+ chmod
+ 
+
