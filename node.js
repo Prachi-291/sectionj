@@ -1,23 +1,23 @@
 //writefile/ appendfile /rename/ copyfile/ unlink
 
 
-/*const fs = require('fs');
+const fs = require('fs');
 // 🔹 Write file
 fs.writeFile('prachi.txt','Hello,World!', function(e){
     if(e) console.log("aaya mera error")
     console.log("File written successfully");    
-})*/
+})
 
 
- /*const fs = require('fs');
+ const fs = require('fs');
  // 🔹 Append file
  fs.appendFile('prachi.txt','Hello,World!', function(e){
      if(e) console.log("aaya mera error")
      console.log("File written successfully");    
- })*/
+ })
 
 
-/*const fs = require('fs');
+const fs = require('fs');
 
 // 🔹 Rename file
 fs.rename("prachi.txt", "prachi_new.txt", function (err) {
@@ -26,10 +26,10 @@ fs.rename("prachi.txt", "prachi_new.txt", function (err) {
     } else {
         console.log("File renamed successfully");
     }
-});*/
+});
 
 
-/*const fs = require('fs');
+const fs = require('fs');
 // 🔹 Copy file
 fs.copyFile("prachi_new.txt", "prachi_copy.txt", function (err) {
     if (err) {
@@ -37,15 +37,15 @@ fs.copyFile("prachi_new.txt", "prachi_copy.txt", function (err) {
     } else {
         console.log("File copied successfully");
     }
-});*/
+});
 
 
 // Example usage of unlink
-/*const fs = require('fs');
+const fs = require('fs');
 fs.unlink("prachi_copy.txt", function(err) {
     if (err) console.error(err);
     console.log('File deleted successfully.');
-});*/
+});
 
 
 const fs = require('fs');
